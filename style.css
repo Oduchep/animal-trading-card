@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 30%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 25px;
+    color: grey;
+    box-shadow: 2px 2px 4px 5px lightgrey;
+}
+
+.section1 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.section2 {
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+.arrow-dots {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0px 20px;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 0px 15px;
+}
+
+.box-1 div p i {
+    padding-right: 5px;
+}
+
+.husky1 {
+    background-color: moccasin;
+    background-blend-mode: multiply;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+
+/* .husky2 {
+    background-color: grey;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -90px 0px 0px -90px;
+    /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+} */
+
+.husky3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0px 0px -100px;
+    border-radius: 50%;
+}
+
+.heart {
+    background-color: orange;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.heart:hover {
+    font-size: 25px;
+}
+
+.box-2 {
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-2 div {
+    width: 30%;
+    padding: 15px 0px;
+    border: 2px solid grey;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bold {
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.box-3 {
+    padding: 15px 15px 0px 15px;
+}
+
+h3 {
+    color: black;
+    padding-bottom: 5px;
+}
+
+.box-4 {
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.poster {
+    display: flex;
+}
+
+.poster img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0 8px 20px 0;
+}
+
+.contact {
+    background-color: moccasin;
+    border-radius: 25px;
+    padding: 10px 20px;
+    height: 1.3rem;
+}
+
+.contact a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 10px 10px;
+    }
+    .contact a {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .container {
+        width: 70%;
+    }
+
+    .contact {
+        padding: 10px 10px;
+    }
+    .contact a {
+        font-size: 0.8rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 60%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 45%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 40%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 35%;
+    }
+}
