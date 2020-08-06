@@ -15,7 +15,7 @@ body {
     background-color: white;
     border-radius: 25px;
     color: grey;
-    box-shadow: 2px 2px 4px 5px lightgrey;
+    box-shadow: 2px 2px 3px 4px lightgrey;
 }
 
 .section1 {
@@ -24,7 +24,7 @@ body {
 }
 
 .section2 {
-    background-color: lightblue;
+    background-color: rgba(139, 180, 185, 0.507);
     border-radius: 25px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .husky1 {
-    background-color: moccasin;
+    background-color: black;
     background-blend-mode: multiply;
     border-radius: 50%;
     width: 300px;
@@ -55,19 +55,8 @@ body {
     position: relative;
 }
 
-/* .husky2 {
-    background-color: grey;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -90px 0px 0px -90px;
-    /* 
-    Offset the position correctly with
-    minus half of the width and minus half of the height 
-} */
+/*  Offset the position correctly with
+    minus half of the width and minus half of the height */
 
 .husky3{
     width: 200px;
@@ -80,7 +69,7 @@ body {
 }
 
 .heart {
-    background-color: orange;
+    background-color: black;
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
@@ -142,7 +131,7 @@ h3 {
 }
 
 .contact {
-    background-color: moccasin;
+    background-color: black;
     border-radius: 25px;
     padding: 10px 20px;
     height: 1.3rem;
@@ -151,7 +140,7 @@ h3 {
 .contact a {
     font-size: 1.1rem;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Extra small devices (phones, 600px and down) */
