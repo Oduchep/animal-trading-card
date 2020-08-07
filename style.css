@@ -32,7 +32,7 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    padding: 40px 20px 0px 20px;
+    padding: 40px 20px 10px 20px;
 }
 
 .box-1 {
@@ -150,6 +150,7 @@ h3 {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 480px) {
     .container {
+        margin: 0px;
         width: 100%;
         box-shadow: unset;
         border-radius: unset;
@@ -160,6 +161,10 @@ h3 {
     }
     .contact a {
         font-size: 0.8rem;
+    }
+
+    .arrow-dots {
+        padding: 15px 20px 15px 20px;
     }
 }
 
